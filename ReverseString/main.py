@@ -5,7 +5,7 @@ source: https://leetcode.com/problems/reverse-degree-of-a-string/description/
 problem: https://leetcode.com/problems/reverse-degree-of-a-string/description/
 type: Easy
 site: LeetCode
-submission: 
+submission: https://leetcode.com/problems/reverse-degree-of-a-string/submissions/1624172270/
 """
 
 def reverseDegree(s):
