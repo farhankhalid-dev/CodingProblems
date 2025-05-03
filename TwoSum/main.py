@@ -5,7 +5,7 @@ source: https://leetcode.com/problems/two-sum/description/
 problem: https://leetcode.com/problems/two-sum/description/
 type: Easy
 site: LeetCode
-submission: 
+submission: https://leetcode.com/problems/two-sum/submissions/1624198947/
 """
 
 def twoSum(nums, target):
