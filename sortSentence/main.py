@@ -5,7 +5,7 @@ source: https://leetcode.com/problems/sorting-the-sentence/description/
 problem: https://leetcode.com/problems/sorting-the-sentence/description/
 type: Sorting
 site: LeetCode
-submission: https://leetcode.com/problems/sorting-the-sentence/submissions/1629556688/
+submission: https://leetcode.com/problems/sorting-the-sentence/submissions/1629557759/
 """
 
 class Solution():
