@@ -5,12 +5,13 @@ source: https://leetcode.com/problems/sorting-the-sentence/description/
 problem: https://leetcode.com/problems/sorting-the-sentence/description/
 type: Sorting
 site: LeetCode
-submission: xyz
+submission: https://leetcode.com/problems/sorting-the-sentence/submissions/1629556688/
 """
 
 class Solution():
-    def sort_sentence(s):
+    def sortSentence(self, s):
         words = s.split()
+        print(words[:-1])
         sorted_words = sorted(words, key=lambda x: int(x[-1]))
         result = ' '.join(word[:-1] for word in sorted_words)
         return result
@@ -18,5 +19,5 @@ class Solution():
 if __name__ == "__main__":
     sol = Solution()
 
-    input = "is2 sentence4 This1 a3"
-    print(sol.sortSentence(input))
+    inp = "is2 sentence4 This1 a3"
+    print(sol.sortSentence(inp))
