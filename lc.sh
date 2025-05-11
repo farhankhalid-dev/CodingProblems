@@ -26,7 +26,7 @@ open_file() {
 case $flag in
 -py)
   # Create Python file
-  cat >"main.py" <<EOF
+  cat >"$project_name.py" <<EOF
 #!/usr/bin/env python3
 
 """
@@ -37,14 +37,17 @@ site:
 submission: 
 """
 
-def main():
+class Solution():
+  def $project_name(self, s):
     pass
 
 if __name__ == "__main__":
-    main()
+    sol = Solution()
+    input = "xyz"
+    print(sol.$project_name(input))
 EOF
-  chmod +x "main.py"
-  open_file "main.py"
+  chmod +x "$project_name.py"
+  open_file "$project_name.py"
   ;;
 -ja)
   # Create Java file

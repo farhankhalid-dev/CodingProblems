@@ -10,11 +10,16 @@ submission: https://leetcode.com/problems/sorting-the-sentence/submissions/16295
 
 class Solution():
     def sortSentence(self, s):
-        words = s.split()
-        print(words[:-1])
-        sorted_words = sorted(words, key=lambda x: int(x[-1]))
-        result = ' '.join(word[:-1] for word in sorted_words)
-        return result
+        # words = s.split()
+        # print(words[:-1])
+        # sorted_words = sorted(words, key=lambda x: int(x[-1]))
+        # result = ' '.join(word[:-1] for word in sorted_words)
+        # return result
+        my_dict = {}
+        for i in range(len(s)):
+            
+            pass
+        return s
 
 if __name__ == "__main__":
     sol = Solution()
